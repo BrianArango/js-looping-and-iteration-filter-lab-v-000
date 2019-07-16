@@ -8,8 +8,12 @@ function fuzzyMatch (collection, value) {
   return collection.filter(function (element) {return element.charAt() === value.charAt()}
     );
   }
-
+//
 function matchName (collection, value) {
-  return collection.filter(function (element) {return element.value === value}
+//<<<<<<< HEAD
+ // return collection.filter(function (element) {return element.value === value}
+//=======
+  return collection.filter(function (name) {return name === value{}}
+//>>>>>>> 5e0d64f44c929ac7d5091b0a606031f166ce3784
   );
-}
+} 
